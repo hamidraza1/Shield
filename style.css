@@ -1,0 +1,252 @@
+#imgOne {
+  position: absolute;
+  left: 350px;
+  top: 60px;
+}
+#light3 {
+  position: absolute;
+  left: 600px;
+  top: 230px;
+  pointer-events: none;
+  transform: scale(0);
+  opacity: 0;
+
+  transition: transform 0.5s, opacity 0.5s;
+}
+.three {
+  transform: scale(1.07) !important;
+  opacity: 1 !important;
+  transition: transform 0.5s, opacity 0.5s;
+}
+#light2 {
+  position: absolute;
+  left: 483px;
+  top: 145px;
+  pointer-events: none;
+  transform: scale(0.7);
+  opacity: 0;
+
+  transition: transform 0.5s, opacity 0.5s;
+}
+.two {
+  transform: scale(1.06) !important;
+  opacity: 1 !important;
+  transition: transform 0.5s, opacity 0.5s;
+}
+#light1 {
+  position: absolute;
+  left: 356px;
+  top: 70px;
+  pointer-events: none;
+  transform: scale(0.75);
+  opacity: 0;
+
+  transition: transform 0.5s, opacity 0.5s;
+}
+.one {
+  transform: scale(1.065) !important;
+  opacity: 1 !important;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+/*--------------------Outer Image CSS-------------------- */
+#text1 {
+  position: absolute;
+  left: 700px;
+  top: 75px;
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 3px;
+
+  transition: transform 500ms;
+  pointer-events: none;
+}
+.text1new {
+  transform: translate(0, -35px) scale(0) !important;
+
+  transition: transform 500ms;
+}
+
+#replacedText1 {
+  position: absolute;
+  left: 540px;
+  top: 75px;
+  color: white;
+  text-align: center;
+  transform: translate(0, 35px) scale(0);
+  transition: transform 400ms;
+  pointer-events: none;
+}
+#repText1 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+#Onebutton1,
+#Onebutton2 {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: rgb(0, 0, 0, 0.4);
+  border: 1px solid rgb(0, 255, 170);
+  letter-spacing: 2px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+#Onebutton1 {
+  margin-right: 30px;
+}
+.replacedText1New {
+  transform: translate(0, 0) scale(1) !important;
+
+  transition: transform 800ms;
+}
+#question1 {
+  position: absolute;
+  left: 750px;
+  top: 610px;
+  transition: transform 300ms;
+  pointer-events: none;
+}
+.question1New {
+  transform: translate(0, 35px) scale(0) !important;
+  transition: transform 300ms;
+}
+
+/*--------------------Middle Image CSS-------------------- */
+#text2 {
+  position: absolute;
+  left: 700px;
+  top: 155px;
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 3px;
+
+  transition: transform 500ms;
+  pointer-events: none;
+}
+.text2new {
+  transform: translate(0, -35px) scale(0) !important;
+
+  transition: transform 500ms;
+}
+#replacedText2 {
+  position: absolute;
+  left: 540px;
+  top: 150px;
+  color: white;
+  text-align: center;
+  transform: translate(0, 35px) scale(0);
+  transition: transform 400ms;
+  pointer-events: none;
+}
+#repText2 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+#Twobutton1,
+#Twobutton2,
+#Twobutton3 {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: rgb(0, 0, 0, 0.4);
+  border: 1px solid rgb(0, 255, 170);
+  letter-spacing: 2px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin-left: -10px;
+}
+#Twobutton1,
+#Twobutton2 {
+  margin-right: 20px;
+}
+.replacedText2New {
+  transform: translate(0, 0) scale(1) !important;
+
+  transition: transform 800ms;
+}
+#question2 {
+  position: absolute;
+  left: 750px;
+  top: 512px;
+  transition: transform 300ms;
+  pointer-events: none;
+}
+.question2New {
+  transform: translate(0, 35px) scale(0) !important;
+  transition: transform 300ms;
+}
+
+/*--------------------Inner Image CSS-------------------- */
+#text3 {
+  position: absolute;
+  left: 700px;
+  top: 240px;
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 3px;
+
+  transition: transform 500ms;
+  pointer-events: none;
+}
+.text3new {
+  transform: translate(0, -35px) scale(0) !important;
+
+  transition: transform 500ms;
+}
+#replacedText3 {
+  position: absolute;
+  left: 610px;
+  top: 237px;
+  color: white;
+  text-align: center;
+  transform: translate(0, 35px) scale(0);
+  transition: transform 400ms;
+  pointer-events: none;
+}
+#repText3 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+#Threebutton1,
+#Threebutton2 {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: rgb(0, 0, 0, 0.4);
+  border: 1px solid rgb(0, 255, 170);
+
+  padding-left: 2px;
+  padding-right: 2px;
+}
+#Threebutton1 {
+  margin-right: 20px;
+}
+.replacedText3New {
+  transform: translate(0, 0) scale(1) !important;
+
+  transition: transform 800ms;
+}
+#question3 {
+  position: absolute;
+  left: 750px;
+  top: 428px;
+  transition: transform 300ms;
+  pointer-events: none;
+}
+.question3New {
+  transform: translate(0, 35px) scale(0) !important;
+  transition: transform 300ms;
+}
+#logo {
+  position: absolute;
+  left: 680px;
+  top: 270px;
+  pointer-events: none;
+}
