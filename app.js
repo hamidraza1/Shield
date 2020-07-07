@@ -14,6 +14,13 @@ var question1 = document.querySelector("#question1");
 var question2 = document.querySelector("#question2");
 var question3 = document.querySelector("#question3");
 
+replacedText1.addEventListener("mouseenter", () => {
+  light1.classList.add("one");
+  text1.classList.add("text1new");
+  replacedText1.classList.add("replacedText1New");
+  question1.classList.add("question1New");
+});
+
 area1.addEventListener("mouseenter", () => {
   light1.classList.add("one");
   text1.classList.add("text1new");
@@ -29,6 +36,13 @@ area1.addEventListener("mouseleave", () => {
   console.log("area1");
 });
 
+replacedText2.addEventListener("mouseenter", () => {
+  text2.classList.add("text2new");
+  light2.classList.add("two");
+  replacedText2.classList.add("replacedText2New");
+  question2.classList.add("question2New");
+});
+
 area2.addEventListener("mouseenter", () => {
   console.log("area2");
   text2.classList.add("text2new");
@@ -42,6 +56,13 @@ area2.addEventListener("mouseleave", () => {
   text2.classList.remove("text2new");
   replacedText2.classList.remove("replacedText2New");
   question2.classList.remove("question2New");
+});
+
+replacedText3.addEventListener("mouseenter", () => {
+  light3.classList.add("three");
+  text3.classList.add("text3new");
+  replacedText3.classList.add("replacedText3New");
+  question3.classList.add("question3New");
 });
 
 area3.addEventListener("mouseenter", () => {
