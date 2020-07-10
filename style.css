@@ -59,7 +59,7 @@
 /*--------------------Outer Image CSS-------------------- */
 #text1 {
   position: absolute;
-  left: 700px;
+  left: 705px;
   top: 75px;
   font-size: 24px;
   font-weight: 400;
@@ -83,13 +83,14 @@
   text-align: center;
   transform: translate(0, 35px) scale(0);
   transition: transform 400ms;
-  font-family: "forza";
+
   /* pointer-events: none; */
 }
 #repText1 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 3px;
+  font-family: "Good Times", arial;
 }
 #Onebutton1,
 #Onebutton2 {
@@ -100,6 +101,11 @@
   letter-spacing: 2px;
 
   cursor: pointer;
+  font-family: fantasy;
+}
+#Onebutton1 button,
+#Onebutton2 button {
+  font-family: "forza";
 }
 #Onebutton1 {
   margin-right: 30px;
@@ -124,7 +130,7 @@
 /*--------------------Middle Image CSS-------------------- */
 #text2 {
   position: absolute;
-  left: 690px;
+  left: 695px;
   top: 155px;
   font-size: 24px;
   font-weight: 400;
@@ -141,18 +147,18 @@
 }
 #replacedText2 {
   position: absolute;
-  left: 540px;
+  left: 565px;
   top: 150px;
   color: white;
   text-align: center;
   transform: translate(0, 35px) scale(0);
   transition: transform 400ms;
-  font-family: "forza";
 }
 #repText2 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 3px;
+  font-family: "Good Times", arial;
 }
 #Twobutton1,
 #Twobutton2,
@@ -164,6 +170,11 @@
   letter-spacing: 2px;
 
   cursor: pointer;
+}
+#Twobutton1 button,
+#Twobutton2 button,
+#Twobutton3 button {
+  font-family: "forza";
 }
 #Twobutton1,
 #Twobutton2 {
@@ -212,12 +223,12 @@
   text-align: center;
   transform: translate(0, 35px) scale(0);
   transition: transform 400ms;
-  font-family: "forza";
 }
 #repText3 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 1px;
+  font-family: "Good Times", arial;
 }
 #Threebutton1,
 #Threebutton2 {
@@ -226,6 +237,10 @@
   font-size: 16px;
 
   cursor: pointer;
+}
+#Threebutton1 button,
+#Threebutton2 button {
+  font-family: "forza";
 }
 #Threebutton1 {
   margin-right: 8px;
@@ -248,8 +263,10 @@
 }
 #logo {
   position: absolute;
-  left: 680px;
-  top: 270px;
+  left: 700px;
+  top: 280px;
+  width: 150px;
+  height: 150px;
   pointer-events: none;
 }
 
