@@ -21,7 +21,7 @@
   transition: transform 0.5s, opacity 0.5s;
 }
 .three {
-  transform: scale(1.025) !important;
+  transform: scale(1.029) !important;
   opacity: 1 !important;
   transition: transform 0.5s, opacity 0.5s;
 }
