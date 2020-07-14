@@ -4,6 +4,12 @@
   font-style: normal;
   font-weight: 400;
 }
+@font-face {
+  font-family: "GoodTimes";
+  src: url("./goodtimesrg.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
 
 #imgOne {
   position: absolute;
@@ -65,7 +71,8 @@
   font-weight: 400;
   color: white;
   letter-spacing: 3px;
-  font-family: "Good Times", arial;
+  font-family: "GoodTimes";
+
   transition: transform 500ms;
   pointer-events: none;
 }
@@ -90,7 +97,7 @@
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 3px;
-  font-family: "Good Times", arial;
+  font-family: "GoodTimes";
   /* margin-bottom: -10px; */
 }
 #Onebutton1,
@@ -137,7 +144,7 @@
   font-weight: 400;
   color: white;
   letter-spacing: 3px;
-  font-family: "Good Times", arial;
+  font-family: "GoodTimes";
   transition: transform 500ms;
   pointer-events: none;
 }
@@ -159,7 +166,7 @@
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 3px;
-  font-family: "Good Times", arial;
+  font-family: "GoodTimes";
 }
 #Twobutton1,
 #Twobutton2,
@@ -207,7 +214,7 @@
   font-weight: 400;
   color: white;
   letter-spacing: 3px;
-  font-family: "Good Times", arial;
+  font-family: "GoodTimes";
   transition: transform 500ms;
   pointer-events: none;
 }
@@ -229,7 +236,7 @@
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 1px;
-  font-family: "Good Times", arial;
+  font-family: "GoodTimes";
 }
 #Threebutton1,
 #Threebutton2 {
